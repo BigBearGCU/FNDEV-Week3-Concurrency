@@ -25,7 +25,9 @@ namespace ParallelBasics
             Stopwatch watchP = Stopwatch.StartNew();
             ParallelMethod();
             watchP.Stop();
-            
+
+            Console.WriteLine("Press key to start non-parallel task");
+            Console.ReadKey();
             //Start stop watch to profile non parallel method
             Stopwatch watch = Stopwatch.StartNew();
             NotParallel();
@@ -73,7 +75,7 @@ namespace ParallelBasics
             for (int i = 3; i < 30000; i++)
             {
 
-                if (isPrime(i));
+                if (isPrime(i)) { }
 
             }
 
