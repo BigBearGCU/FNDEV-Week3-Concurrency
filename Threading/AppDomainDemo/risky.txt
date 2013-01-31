@@ -1,0 +1,4 @@
+My credit card details:
+Mr J.Smith, 5999 1234 1234 1234, exp 10/11, PIN 1234
+My internet banking details:
+Username: Jsmith, Password: Pa$$w0rd

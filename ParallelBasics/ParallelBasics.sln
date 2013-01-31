@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelFor", "ParallelBasics\ParallelFor.csproj", "{BE91D464-3983-48E6-AAA4-7D772553A80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelForEach", "ParallelForEach\ParallelForEach.csproj", "{AA94594A-F61D-478F-9093-00878B418902}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelInvoke", "ParallelInvoke\ParallelInvoke.csproj", "{DE0A69CE-BE4D-437A-9FB7-26BE8FFFD3D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTask", "BasicTask\BasicTask.csproj", "{7FB7B9A5-7BA6-4104-BF8A-E1518815B48F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQ", "PLINQ\PLINQ.csproj", "{7473AA63-8E50-4CBE-A2B8-C3169907536E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelException", "ParallelException\ParallelException.csproj", "{46EAA001-C579-46BC-92DF-FECFE959DF54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelUIFinished", "ParallelUI\ParallelUIFinished.csproj", "{F479586C-7C66-4E61-B280-FA2B8C23551D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParallelUIStarter", "ParallelUIStarter\ParallelUIStarter.csproj", "{C18A8B19-E342-4A2F-81D6-2AE158B0F1E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE91D464-3983-48E6-AAA4-7D772553A80A}.Debug|x86.ActiveCfg = Debug|x86
+		{BE91D464-3983-48E6-AAA4-7D772553A80A}.Debug|x86.Build.0 = Debug|x86
+		{BE91D464-3983-48E6-AAA4-7D772553A80A}.Release|x86.ActiveCfg = Release|x86
+		{BE91D464-3983-48E6-AAA4-7D772553A80A}.Release|x86.Build.0 = Release|x86
+		{AA94594A-F61D-478F-9093-00878B418902}.Debug|x86.ActiveCfg = Debug|x86
+		{AA94594A-F61D-478F-9093-00878B418902}.Debug|x86.Build.0 = Debug|x86
+		{AA94594A-F61D-478F-9093-00878B418902}.Release|x86.ActiveCfg = Release|x86
+		{AA94594A-F61D-478F-9093-00878B418902}.Release|x86.Build.0 = Release|x86
+		{DE0A69CE-BE4D-437A-9FB7-26BE8FFFD3D1}.Debug|x86.ActiveCfg = Debug|x86
+		{DE0A69CE-BE4D-437A-9FB7-26BE8FFFD3D1}.Debug|x86.Build.0 = Debug|x86
+		{DE0A69CE-BE4D-437A-9FB7-26BE8FFFD3D1}.Release|x86.ActiveCfg = Release|x86
+		{DE0A69CE-BE4D-437A-9FB7-26BE8FFFD3D1}.Release|x86.Build.0 = Release|x86
+		{7FB7B9A5-7BA6-4104-BF8A-E1518815B48F}.Debug|x86.ActiveCfg = Debug|x86
+		{7FB7B9A5-7BA6-4104-BF8A-E1518815B48F}.Debug|x86.Build.0 = Debug|x86
+		{7FB7B9A5-7BA6-4104-BF8A-E1518815B48F}.Release|x86.ActiveCfg = Release|x86
+		{7FB7B9A5-7BA6-4104-BF8A-E1518815B48F}.Release|x86.Build.0 = Release|x86
+		{7473AA63-8E50-4CBE-A2B8-C3169907536E}.Debug|x86.ActiveCfg = Debug|x86
+		{7473AA63-8E50-4CBE-A2B8-C3169907536E}.Debug|x86.Build.0 = Debug|x86
+		{7473AA63-8E50-4CBE-A2B8-C3169907536E}.Release|x86.ActiveCfg = Release|x86
+		{7473AA63-8E50-4CBE-A2B8-C3169907536E}.Release|x86.Build.0 = Release|x86
+		{46EAA001-C579-46BC-92DF-FECFE959DF54}.Debug|x86.ActiveCfg = Debug|x86
+		{46EAA001-C579-46BC-92DF-FECFE959DF54}.Debug|x86.Build.0 = Debug|x86
+		{46EAA001-C579-46BC-92DF-FECFE959DF54}.Release|x86.ActiveCfg = Release|x86
+		{46EAA001-C579-46BC-92DF-FECFE959DF54}.Release|x86.Build.0 = Release|x86
+		{F479586C-7C66-4E61-B280-FA2B8C23551D}.Debug|x86.ActiveCfg = Debug|x86
+		{F479586C-7C66-4E61-B280-FA2B8C23551D}.Debug|x86.Build.0 = Debug|x86
+		{F479586C-7C66-4E61-B280-FA2B8C23551D}.Release|x86.ActiveCfg = Release|x86
+		{F479586C-7C66-4E61-B280-FA2B8C23551D}.Release|x86.Build.0 = Release|x86
+		{C18A8B19-E342-4A2F-81D6-2AE158B0F1E1}.Debug|x86.ActiveCfg = Debug|x86
+		{C18A8B19-E342-4A2F-81D6-2AE158B0F1E1}.Debug|x86.Build.0 = Debug|x86
+		{C18A8B19-E342-4A2F-81D6-2AE158B0F1E1}.Release|x86.ActiveCfg = Release|x86
+		{C18A8B19-E342-4A2F-81D6-2AE158B0F1E1}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
